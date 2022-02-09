@@ -1,4 +1,4 @@
-# Image-Filter
+# Image Filter
 This is my project for class, it is based on the fact that you write a word in the input and it looks for the available images, until now it only filters by the following words:
 - Messi
 - Cristiano
