@@ -43,7 +43,6 @@ function search(){
     && textsearch != "Eminem" && textsearch != "eminem" && textsearch != "Canserbero" 
     && textsearch != "canserbero" && textsearch != "Montecastelo" && textsearch != "montecastelo"){
         alert("Could not find sorry")
-        document.getElementById("searchinput").value = ""
         let imgsremove = document.getElementsByTagName("img")
         for(i=0;i < imgsremove.length;i++){
             imgsremove[i].src="img/noimage.jpg";
