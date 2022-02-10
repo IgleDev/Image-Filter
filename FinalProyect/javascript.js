@@ -150,10 +150,12 @@ function search(){
     }
 
     let searchconsol = document.getElementById("searchinput").value
-    while(true){
-        console.log("Search Number " + searchs + "º: " + searchconsol)
-        searchs++
-        break
+    if (textsearch != ""){
+        while(true){
+            console.log("Search Number " + searchs + "º: " + searchconsol)
+            searchs++
+            break
+        }
     }
 }
 
